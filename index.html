@@ -23,15 +23,53 @@
 <hr>
 <h2>Array</h2>
 <div class="d-flex">
-  
   <div class="mb-3 w-25">
-    <input type="number" id="" class="form-control w-75 mt-2" placeholder="">
-    <button class="btn btn-dark my-3" >Thêm</button>
+    <input type="number" id="inputNumber" class="form-control w-75 mt-2" placeholder="">
+    <button class="btn btn-dark my-3" id="addNumber">Add number</button>
+    <button class="btn btn-dark my-3" id="removeMainArray">Remove Array</button>  
   </div>
   <div class="w-75 ">
-    <h4 class="">Mãng hiện tại: <span id="mainArray" class="fw-normal fs-6 bg-dark text-white p-3 rounded-5" style="line-height: 55px;"></span></h4>
+    <h4 class="">Mãng hiện tại: <span id="displaymainArray" class="fw-normal fs-6 text-white p-3 rounded-5" style="line-height: 55px;"></span></h4>
   </div>
+</div>
+<!-- Tổng các số dương trong mảng -->
 
+<hr>
+<h2>1. Tổng số dương trong mảng </h2>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-5" onclick="b1()">GET</button>
+  </div>
+  <div class="w-75 ">
+    <h4 class="">Kết quả: <span id="kq1" class="fw-bold fs-5 " style="line-height: 55px;"></span></h4>
+  </div>
+</div>
+
+<!-- Đếm các số dương trong mảng -->
+
+<hr>
+<h2>2. Đếm số dương trong mảng </h2>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-5" onclick="b2()">GET</button>
+  </div>
+  <div class="w-75 ">
+    <h4 class="">Kết quả: <span id="kq2" class="fw-bold fs-5 " style="line-height: 55px;"></span></h4>
+  </div>
+</div>
+
+
+<!-- Đếm các số dương trong mảng -->
+
+<hr>
+<h2>3. Tìm số nhỏ nhất trong mảngs </h2>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-5" onclick="b3()">GET</button>
+  </div>
+  <div class="w-75 ">
+    <h4 class="">Kết quả: <span id="kq3" class="fw-bold fs-5 " style="line-height: 55px;"></span></h4>
+  </div>
 </div>
 
 
