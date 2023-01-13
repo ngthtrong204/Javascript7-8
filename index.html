@@ -29,11 +29,12 @@
     <button class="btn btn-dark my-3" id="removeMainArray">Remove Array</button>  
   </div>
   <div class="w-75 ">
-    <h4 class="">Mãng hiện tại: <span id="displaymainArray" class="fw-normal fs-6 text-white p-3 rounded-5" style="line-height: 55px;"></span></h4>
+    <h4 class="">Mảng hiện tại: <span id="displaymainArray" class="fw-normal fs-6 text-white p-3 rounded-5" style="line-height: 55px;"></span></h4>
   </div>
 </div>
-<!-- Tổng các số dương trong mảng -->
 
+
+<!-- Tổng các số dương trong mảng -->
 <hr>
 <h2>1. Tổng số dương trong mảng </h2>
 <div class="d-flex">
@@ -46,7 +47,6 @@
 </div>
 
 <!-- Đếm các số dương trong mảng -->
-
 <hr>
 <h2>2. Đếm số dương trong mảng </h2>
 <div class="d-flex">
@@ -60,9 +60,8 @@
 
 
 <!-- Đếm các số dương trong mảng -->
-
 <hr>
-<h2>3. Tìm số nhỏ nhất trong mảngs </h2>
+<h2>3. Tìm số nhỏ nhất trong mảng </h2>
 <div class="d-flex">
   <div class="mb-3 w-25">
     <button class="btn btn-dark mt-2 mx-5" onclick="b3()">GET</button>
@@ -72,15 +71,116 @@
   </div>
 </div>
 
+<!-- Tìm số dương nhở nhất trong mảng -->
+<hr>
+<h2>4. Tìm số dương nhỏ nhất trong mảng </h2>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-5" onclick="b4()">GET</button>
+  </div>
+  <div class="w-75 ">
+    <h4 class="">Kết quả: <span id="kq4" class="fw-bold fs-5 " style="line-height: 55px;"></span></h4>
+  </div>
+</div>
+
+<!-- Tìm số chẵn cuối cùng trong mảng -->
+<hr>
+<h2>5. Tìm số chẵn cuối cùng trong mảng </h2>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-5" onclick="b5()">GET</button>
+  </div>
+  <div class="w-75 ">
+    <h4 class="">Kết quả: <span id="kq5" class="fw-bold fs-5 " style="line-height: 55px;"></span></h4>
+  </div>
+</div>
+
+<!-- Thay đổi vị trí  -->
+<hr>
+<h2>6. Thay đổi vị trí  </h2>
+<div class="d-flex w-50">
+  <div class="p-2 w-50">
+    <input type="number" class="form-control w-75 mt-2" id="position1" placeholder="Vị trí 1 (>=0)">
+  </div>
+  <div class="p-2 w-50 ">
+    <input type="number" class="form-control w-75 mt-2" id="position2" placeholder="Vị trí 2 (>=0)">
+  </div>
+</div>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-2" onclick="b6()">GET</button>
+  </div>
+  <div class="w-75 mx-4">
+    <h4 class="">Mảng sau khi thay đổi vị trí: <span id="kq6" class="fw-normal fs-6 text-white p-3 rounded-5" style="line-height: 55px;"></span></h4>
+
+  </div>
+</div>
 
 
+<!-- Sắp xếp  -->
+<hr>
+<h2>7. Sắp xếp theo thứ tự tăng dần  </h2>
+
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-5" onclick="b7()">GET</button>
+  </div>
+  <div class="w-75 mx-4">
+    <h4 class="">Mảng sau khi sắp xếp: <span id="kq7" class="fw-normal fs-6 text-white p-3 rounded-5" style="line-height: 55px;"></span></h4>
+
+  </div>
+</div>
 
 
+<!-- Tìm số nguyên tố đầu tiên-->
+<hr>
+<h2>8. Tìm số nguyên tố đầu tiên </h2>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-5" onclick="b8()">GET</button>
+  </div>
+  <div class="w-75 mx-4">
+    <h4 class="">Kết quả: <span id="kq8" class="fw-bold fs-5 " style="line-height: 55px;"></span></h4>
+  </div>
+</div>
+
+<!-- Nhập mảng và đếm số lượng số nguyên-->
+
+<hr>
+<h2>9. Nhập mảng và đếm số lượng số nguyên</h2>
+<div class="d-flex">
+  <div class="mb-0 w-25">
+    <input type="number" id="inputNumberB9" class="form-control w-75 mt-2" placeholder="">
+    <button class="btn btn-dark mt-3" id="addNumberB9">Add number</button>
+    <button class="btn btn-dark mt-3" id="removeMainArrayB9">Remove Array</button>  
+  </div>
+  <div class="w-75 ">
+    <h4 class="">Mảng này: <span id="displayB9" class="fw-normal fs-6 text-white p-3 rounded-5" style="line-height: 55px;"></span></h4>
+  </div>
+</div>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 " onclick="b9()">Đếm số nguyên</button>
+  </div>
+  <div class="w-75 mx-4">
+    <h4 class="">Kết quả: <span id="kq9" class="fw-bold fs-5 " style="line-height: 55px;"></span></h4>
+  </div>
+</div>
 
 
+<!-- So sánh số lượng cố âm và dương -->
+<hr>
+<h2>10. So sánh số lượng cố âm và dương </h2>
+<div class="d-flex">
+  <div class="mb-3 w-25">
+    <button class="btn btn-dark mt-2 mx-5" onclick="b10()">GET</button>
+  </div>
+  <div class="w-75 ">
+    <h4 class="">Kết quả: <span id="kq10" class="fw-bold fs-5 " style="line-height: 55px;"></span></h4>
+  </div>
+</div>
 
-
-
+<br><br><br>
 
 
 <!-- link js -->
